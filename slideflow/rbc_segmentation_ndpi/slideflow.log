@@ -1,0 +1,1070 @@
+2026-01-07 10:46:40 [INFO] - Setting up project at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi
+2026-01-07 10:46:40 [INFO] - Creating project at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi...
+2026-01-07 10:46:40 [INFO] - Saved dataset source MyProject to /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/datasets.json
+2026-01-07 10:47:07 [DEBUG] - Verifying slide annotations...
+2026-01-07 10:47:07 [DEBUG] - TFRecords path not found: /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/512px_256um
+2026-01-07 10:47:07 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/512px_256um; creating now
+2026-01-07 10:47:07 [DEBUG] - Failed to update manifest /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/512px_256um; no TFRecords
+2026-01-07 10:47:07 [DEBUG] - TFRecords path not found: /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/512px_256um
+2026-01-07 10:47:07 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/512px_256um; creating now
+2026-01-07 10:47:07 [DEBUG] - Failed to update manifest /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/512px_256um; no TFRecords
+2026-01-07 10:47:07 [INFO] - Slide reading backend: [cyan]libvips[/]
+2026-01-07 10:47:07 [INFO] - Filtering tiles by grayspace fraction
+2026-01-07 10:47:07 [DEBUG] - Grayspace defined as HSV avg < 0.05 (exclude if >=60% grayspace)
+2026-01-07 10:47:07 [INFO] - Working on dataset source [bold]MyProject[/]...
+2026-01-07 10:47:07 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/512px_256um; creating now
+2026-01-07 10:47:07 [INFO] - Extracting tiles from 8 slides (tile_px=512, tile_um=256)
+2026-01-07 10:47:07 [INFO] - Using 8 processes (pool=spawn)
+2026-01-07 10:47:08 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 10:47:08 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:47:08 [DEBUG] - Set up coordinate grid, shape=(52, 36)
+2026-01-07 10:47:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:47:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (52, 36) | Tiles to extract: 1872
+2026-01-07 10:47:08 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 10:47:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Extracting 256um tiles (resizing 580.0px -> 512px); stride: 580px
+2026-01-07 10:47:08 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:47:08 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:47:22 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.00.38[/] (587 tiles of 1872 possible)
+2026-01-07 10:47:22 [DEBUG] - Generating slide report
+2026-01-07 10:47:25 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 10:47:25 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:47:25 [DEBUG] - Set up coordinate grid, shape=(46, 36)
+2026-01-07 10:47:25 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:47:25 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (46, 36) | Tiles to extract: 1656
+2026-01-07 10:47:25 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 10:47:25 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 256um tiles (resizing 580.0px -> 512px); stride: 580px
+2026-01-07 10:47:25 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:47:25 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:47:30 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (503 tiles of 1656 possible)
+2026-01-07 10:47:30 [DEBUG] - Generating slide report
+2026-01-07 10:47:30 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 10:47:30 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:47:30 [DEBUG] - Set up coordinate grid, shape=(46, 36)
+2026-01-07 10:47:30 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:47:30 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (46, 36) | Tiles to extract: 1656
+2026-01-07 10:47:30 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 10:47:30 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Extracting 256um tiles (resizing 580.0px -> 512px); stride: 580px
+2026-01-07 10:47:30 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:47:30 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:47:35 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.03.25[/] (494 tiles of 1656 possible)
+2026-01-07 10:47:35 [DEBUG] - Generating slide report
+2026-01-07 10:47:35 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 10:47:35 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:47:35 [DEBUG] - Set up coordinate grid, shape=(49, 36)
+2026-01-07 10:47:35 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 10:47:35 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (49, 36) | Tiles to extract: 1764
+2026-01-07 10:47:35 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 10:47:35 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Extracting 256um tiles (resizing 580.0px -> 512px); stride: 580px
+2026-01-07 10:47:35 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:47:35 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:47:41 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.08.37[/] (519 tiles of 1764 possible)
+2026-01-07 10:47:41 [DEBUG] - Generating slide report
+2026-01-07 10:47:41 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 10:47:41 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:47:41 [DEBUG] - Set up coordinate grid, shape=(49, 38)
+2026-01-07 10:47:41 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 10:47:41 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (49, 38) | Tiles to extract: 1862
+2026-01-07 10:47:41 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 10:47:41 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Extracting 256um tiles (resizing 580.0px -> 512px); stride: 580px
+2026-01-07 10:47:41 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:47:41 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:47:47 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.16.35[/] (552 tiles of 1862 possible)
+2026-01-07 10:47:47 [DEBUG] - Generating slide report
+2026-01-07 10:47:47 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 10:47:47 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:47:47 [DEBUG] - Set up coordinate grid, shape=(52, 36)
+2026-01-07 10:47:47 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:47:47 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (52, 36) | Tiles to extract: 1872
+2026-01-07 10:47:47 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 10:47:47 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Extracting 256um tiles (resizing 580.0px -> 512px); stride: 580px
+2026-01-07 10:47:47 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:47:47 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:47:52 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.11.15[/] (585 tiles of 1872 possible)
+2026-01-07 10:47:52 [DEBUG] - Generating slide report
+2026-01-07 10:47:52 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 10:47:52 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:47:52 [DEBUG] - Set up coordinate grid, shape=(49, 36)
+2026-01-07 10:47:52 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 10:47:52 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (49, 36) | Tiles to extract: 1764
+2026-01-07 10:47:52 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 10:47:52 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Extracting 256um tiles (resizing 580.0px -> 512px); stride: 580px
+2026-01-07 10:47:52 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:47:52 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:47:58 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.05.59[/] (556 tiles of 1764 possible)
+2026-01-07 10:47:58 [DEBUG] - Generating slide report
+2026-01-07 10:47:58 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 10:47:58 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:47:58 [DEBUG] - Set up coordinate grid, shape=(46, 36)
+2026-01-07 10:47:58 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:47:58 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (46, 36) | Tiles to extract: 1656
+2026-01-07 10:47:58 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 10:47:58 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Extracting 256um tiles (resizing 580.0px -> 512px); stride: 580px
+2026-01-07 10:47:58 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:47:58 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:48:04 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.14.02[/] (494 tiles of 1656 possible)
+2026-01-07 10:48:04 [DEBUG] - Generating slide report
+2026-01-07 10:48:04 [INFO] - Generating PDF (this may take some time)...
+2026-01-07 10:48:04 [DEBUG] - Rendering thumbnails with pool.
+2026-01-07 10:48:04 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 10:48:04 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 10:48:04 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:48:04 [DEBUG] - Set up coordinate grid, shape=(46, 36)
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (46, 36) | Tiles to extract: 1656
+2026-01-07 10:48:04 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:48:04 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 10:48:04 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 10:48:04 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:48:04 [DEBUG] - Set up coordinate grid, shape=(49, 38)
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (49, 38) | Tiles to extract: 1862
+2026-01-07 10:48:04 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:48:04 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 10:48:04 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 10:48:04 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:48:04 [DEBUG] - Set up coordinate grid, shape=(49, 36)
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (49, 36) | Tiles to extract: 1764
+2026-01-07 10:48:04 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:48:04 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 10:48:04 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 10:48:04 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:48:04 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 10:48:04 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 10:48:04 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:48:04 [DEBUG] - Set up coordinate grid, shape=(52, 36)
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (52, 36) | Tiles to extract: 1872
+2026-01-07 10:48:04 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:48:04 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 10:48:04 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 10:48:04 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:48:04 [DEBUG] - Set up coordinate grid, shape=(46, 36)
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (46, 36) | Tiles to extract: 1656
+2026-01-07 10:48:04 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:48:04 [DEBUG] - Set up coordinate grid, shape=(52, 36)
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (52, 36) | Tiles to extract: 1872
+2026-01-07 10:48:04 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:48:04 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 10:48:04 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 10:48:04 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:48:04 [DEBUG] - Set up coordinate grid, shape=(46, 36)
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (46, 36) | Tiles to extract: 1656
+2026-01-07 10:48:04 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:48:04 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 10:48:04 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 10:48:04 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:48:04 [DEBUG] - Set up coordinate grid, shape=(49, 36)
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 10:48:04 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (49, 36) | Tiles to extract: 1764
+2026-01-07 10:48:04 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:48:05 [DEBUG] - Rendering tile images with pool.
+2026-01-07 10:48:05 [DEBUG] - Report render complete.
+2026-01-07 10:48:05 [DEBUG] - Rendering PDF pages with thumbnails.
+2026-01-07 10:52:07 [DEBUG] - Verifying slide annotations...
+2026-01-07 10:52:07 [DEBUG] - TFRecords path not found: /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um
+2026-01-07 10:52:07 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um; creating now
+2026-01-07 10:52:07 [DEBUG] - Failed to update manifest /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um; no TFRecords
+2026-01-07 10:52:07 [DEBUG] - TFRecords path not found: /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um
+2026-01-07 10:52:07 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um; creating now
+2026-01-07 10:52:07 [DEBUG] - Failed to update manifest /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um; no TFRecords
+2026-01-07 10:52:07 [INFO] - Slide reading backend: [cyan]libvips[/]
+2026-01-07 10:52:07 [INFO] - Filtering tiles by grayspace fraction
+2026-01-07 10:52:07 [DEBUG] - Grayspace defined as HSV avg < 0.05 (exclude if >=60% grayspace)
+2026-01-07 10:52:07 [INFO] - Working on dataset source [bold]MyProject[/]...
+2026-01-07 10:52:07 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um; creating now
+2026-01-07 10:52:07 [INFO] - Extracting tiles from 8 slides (tile_px=256, tile_um=128)
+2026-01-07 10:52:07 [INFO] - Using 8 processes (pool=spawn)
+2026-01-07 10:52:07 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 10:52:07 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:52:08 [DEBUG] - Set up coordinate grid, shape=(105, 72)
+2026-01-07 10:52:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:52:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (105, 72) | Tiles to extract: 7560
+2026-01-07 10:52:08 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:52:08 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:52:08 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.00.38 (time: 0.23s)
+2026-01-07 10:52:08 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 10:52:17 [DEBUG] - Verifying slide annotations...
+2026-01-07 10:52:17 [ERROR] - Empty TFRecord at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um/OTS-24-22043 - 2024-08-28 15.00.38.tfrecords; removing
+2026-01-07 10:52:17 [INFO] - Slide reading backend: [cyan]libvips[/]
+2026-01-07 10:52:17 [INFO] - Filtering tiles by grayspace fraction
+2026-01-07 10:52:17 [DEBUG] - Grayspace defined as HSV avg < 0.05 (exclude if >=60% grayspace)
+2026-01-07 10:52:17 [INFO] - Working on dataset source [bold]MyProject[/]...
+2026-01-07 10:52:17 [INFO] - Re-extracting 1 interrupted:
+2026-01-07 10:52:17 [INFO] - OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 10:52:17 [INFO] - Extracting tiles from 8 slides (tile_px=256, tile_um=128)
+2026-01-07 10:52:17 [INFO] - Using 8 processes (pool=spawn)
+2026-01-07 10:52:17 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 10:52:17 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:52:17 [DEBUG] - Set up coordinate grid, shape=(105, 72)
+2026-01-07 10:52:17 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:52:17 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (105, 72) | Tiles to extract: 7560
+2026-01-07 10:52:17 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:52:17 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:52:18 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.00.38 (time: 0.69s)
+2026-01-07 10:52:18 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 10:52:37 [DEBUG] - Verifying slide annotations...
+2026-01-07 10:52:37 [ERROR] - Empty TFRecord at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_128um/OTS-24-22043 - 2024-08-28 15.00.38.tfrecords; removing
+2026-01-07 10:52:37 [INFO] - Slide reading backend: [cyan]libvips[/]
+2026-01-07 10:52:37 [INFO] - Filtering tiles by grayspace fraction
+2026-01-07 10:52:37 [DEBUG] - Grayspace defined as HSV avg < 0.05 (exclude if >=60% grayspace)
+2026-01-07 10:52:37 [INFO] - Working on dataset source [bold]MyProject[/]...
+2026-01-07 10:52:37 [INFO] - Re-extracting 1 interrupted:
+2026-01-07 10:52:37 [INFO] - OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 10:52:37 [INFO] - Extracting tiles from 8 slides (tile_px=256, tile_um=128)
+2026-01-07 10:52:37 [INFO] - Using 8 processes (pool=spawn)
+2026-01-07 10:52:37 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 10:52:37 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:52:37 [DEBUG] - Set up coordinate grid, shape=(105, 72)
+2026-01-07 10:52:37 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:52:37 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (105, 72) | Tiles to extract: 7560
+2026-01-07 10:52:37 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:52:37 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:52:38 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.00.38 (time: 0.71s)
+2026-01-07 10:52:38 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 10:52:38 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Extracting 128um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 10:52:38 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:52:38 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:52:56 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.00.38[/] (2208 tiles of 2221 possible)
+2026-01-07 10:52:56 [DEBUG] - Generating slide report
+2026-01-07 10:53:00 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 10:53:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:53:00 [DEBUG] - Set up coordinate grid, shape=(92, 72)
+2026-01-07 10:53:00 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:53:00 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (92, 72) | Tiles to extract: 6624
+2026-01-07 10:53:00 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:53:00 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:53:00 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 14.58.03 (time: 0.12s)
+2026-01-07 10:53:00 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 10:53:00 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 128um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 10:53:00 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:53:00 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:53:08 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (1905 tiles of 1914 possible)
+2026-01-07 10:53:08 [DEBUG] - Generating slide report
+2026-01-07 10:53:08 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 10:53:08 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:53:08 [DEBUG] - Set up coordinate grid, shape=(92, 72)
+2026-01-07 10:53:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:53:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (92, 72) | Tiles to extract: 6624
+2026-01-07 10:53:08 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:53:08 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:53:08 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.03.25 (time: 0.12s)
+2026-01-07 10:53:08 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 10:53:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Extracting 128um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 10:53:08 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:53:08 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:53:16 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.03.25[/] (1848 tiles of 1857 possible)
+2026-01-07 10:53:16 [DEBUG] - Generating slide report
+2026-01-07 10:53:16 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 10:53:16 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:53:16 [DEBUG] - Set up coordinate grid, shape=(99, 72)
+2026-01-07 10:53:16 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 10:53:16 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (99, 72) | Tiles to extract: 7128
+2026-01-07 10:53:16 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:53:16 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:53:16 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.08.37 (time: 0.14s)
+2026-01-07 10:53:16 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 10:53:16 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Extracting 128um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 10:53:16 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:53:16 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:53:25 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.08.37[/] (1940 tiles of 1948 possible)
+2026-01-07 10:53:25 [DEBUG] - Generating slide report
+2026-01-07 10:53:25 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 10:53:25 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:53:25 [DEBUG] - Set up coordinate grid, shape=(99, 77)
+2026-01-07 10:53:25 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 10:53:25 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (99, 77) | Tiles to extract: 7623
+2026-01-07 10:53:25 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:53:25 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:53:25 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.16.35 (time: 0.16s)
+2026-01-07 10:53:25 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 10:53:25 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Extracting 128um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 10:53:25 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:53:25 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:53:35 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.16.35[/] (2140 tiles of 2151 possible)
+2026-01-07 10:53:35 [DEBUG] - Generating slide report
+2026-01-07 10:53:35 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 10:53:35 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:53:35 [DEBUG] - Set up coordinate grid, shape=(105, 72)
+2026-01-07 10:53:35 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:53:35 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (105, 72) | Tiles to extract: 7560
+2026-01-07 10:53:35 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:53:35 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:53:35 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.11.15 (time: 0.15s)
+2026-01-07 10:53:35 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 10:53:35 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Extracting 128um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 10:53:35 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:53:35 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:53:45 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.11.15[/] (2207 tiles of 2219 possible)
+2026-01-07 10:53:45 [DEBUG] - Generating slide report
+2026-01-07 10:53:45 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 10:53:45 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:53:45 [DEBUG] - Set up coordinate grid, shape=(99, 72)
+2026-01-07 10:53:45 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 10:53:45 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (99, 72) | Tiles to extract: 7128
+2026-01-07 10:53:45 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:53:45 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:53:45 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.05.59 (time: 0.16s)
+2026-01-07 10:53:45 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 10:53:45 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Extracting 128um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 10:53:45 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:53:45 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:53:55 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.05.59[/] (2155 tiles of 2166 possible)
+2026-01-07 10:53:55 [DEBUG] - Generating slide report
+2026-01-07 10:53:55 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 10:53:55 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:53:55 [DEBUG] - Set up coordinate grid, shape=(92, 72)
+2026-01-07 10:53:55 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:53:55 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (92, 72) | Tiles to extract: 6624
+2026-01-07 10:53:55 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 10:53:55 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 10:53:55 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.14.02 (time: 0.15s)
+2026-01-07 10:53:55 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 10:53:55 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Extracting 128um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 10:53:55 [DEBUG] - Building generator with a shared pool
+2026-01-07 10:53:55 [DEBUG] - Using imap chunksize=64
+2026-01-07 10:54:05 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.14.02[/] (1842 tiles of 1849 possible)
+2026-01-07 10:54:05 [DEBUG] - Generating slide report
+2026-01-07 10:54:05 [INFO] - Generating PDF (this may take some time)...
+2026-01-07 10:54:05 [DEBUG] - Rendering thumbnails with pool.
+2026-01-07 10:54:05 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 10:54:05 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 10:54:05 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:54:05 [DEBUG] - Set up coordinate grid, shape=(105, 72)
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (105, 72) | Tiles to extract: 7560
+2026-01-07 10:54:05 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:54:05 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 10:54:05 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 10:54:05 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:54:05 [DEBUG] - Set up coordinate grid, shape=(92, 72)
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (92, 72) | Tiles to extract: 6624
+2026-01-07 10:54:05 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:54:05 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 10:54:05 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 10:54:05 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:54:05 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 10:54:05 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 10:54:05 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:54:05 [DEBUG] - Set up coordinate grid, shape=(99, 77)
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (99, 77) | Tiles to extract: 7623
+2026-01-07 10:54:05 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:54:05 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 10:54:05 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 10:54:05 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 10:54:05 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:54:05 [DEBUG] - Set up coordinate grid, shape=(105, 72)
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (105, 72) | Tiles to extract: 7560
+2026-01-07 10:54:05 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:54:05 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 10:54:05 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 10:54:05 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:54:05 [DEBUG] - Set up coordinate grid, shape=(92, 72)
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (92, 72) | Tiles to extract: 6624
+2026-01-07 10:54:05 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:54:05 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 10:54:05 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:54:05 [DEBUG] - Set up coordinate grid, shape=(92, 72)
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (92, 72) | Tiles to extract: 6624
+2026-01-07 10:54:05 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:54:05 [DEBUG] - Set up coordinate grid, shape=(99, 72)
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (99, 72) | Tiles to extract: 7128
+2026-01-07 10:54:05 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:54:05 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 10:54:05 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 10:54:05 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 10:54:05 [DEBUG] - Set up coordinate grid, shape=(99, 72)
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 10:54:05 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (99, 72) | Tiles to extract: 7128
+2026-01-07 10:54:05 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 10:54:05 [DEBUG] - Rendering tile images with pool.
+2026-01-07 10:54:05 [DEBUG] - Report render complete.
+2026-01-07 10:54:06 [DEBUG] - Rendering PDF pages with thumbnails.
+2026-01-07 11:04:25 [DEBUG] - Verifying slide annotations...
+2026-01-07 11:04:25 [DEBUG] - TFRecords path not found: /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um
+2026-01-07 11:04:25 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um; creating now
+2026-01-07 11:04:25 [DEBUG] - Failed to update manifest /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um; no TFRecords
+2026-01-07 11:04:25 [DEBUG] - TFRecords path not found: /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um
+2026-01-07 11:04:25 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um; creating now
+2026-01-07 11:04:25 [DEBUG] - Failed to update manifest /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um; no TFRecords
+2026-01-07 11:04:25 [INFO] - Slide reading backend: [cyan]libvips[/]
+2026-01-07 11:04:25 [INFO] - Filtering tiles by grayspace fraction
+2026-01-07 11:04:25 [DEBUG] - Grayspace defined as HSV avg < 0.05 (exclude if >=60% grayspace)
+2026-01-07 11:04:25 [INFO] - Working on dataset source [bold]MyProject[/]...
+2026-01-07 11:04:25 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um; creating now
+2026-01-07 11:04:25 [INFO] - Extracting tiles from 8 slides (tile_px=256, tile_um=64)
+2026-01-07 11:04:25 [INFO] - Using 8 processes (pool=spawn)
+2026-01-07 11:04:25 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 11:04:25 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:04:25 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 11:04:25 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 11:04:25 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 11:04:25 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:04:25 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:04:26 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.00.38 (time: 1.30s)
+2026-01-07 11:04:26 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 11:04:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:04:26 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:04:26 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:05:21 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.00.38[/] (8745 tiles of 8779 possible)
+2026-01-07 11:05:21 [DEBUG] - Generating slide report
+2026-01-07 11:05:27 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 11:05:27 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:05:27 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:05:27 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:05:27 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:05:27 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:05:27 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:05:27 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 14.58.03 (time: 0.24s)
+2026-01-07 11:05:27 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 11:05:27 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:05:27 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:05:27 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:05:57 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (7568 tiles of 7596 possible)
+2026-01-07 11:05:57 [DEBUG] - Generating slide report
+2026-01-07 11:05:57 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 11:05:57 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:05:57 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:05:57 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:05:57 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:05:57 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:05:57 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:05:58 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.03.25 (time: 0.25s)
+2026-01-07 11:05:58 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 11:05:58 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:05:58 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:05:58 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:06:28 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.03.25[/] (7367 tiles of 7401 possible)
+2026-01-07 11:06:28 [DEBUG] - Generating slide report
+2026-01-07 11:06:28 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 11:06:28 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:06:28 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 11:06:28 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 11:06:28 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 11:06:28 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:06:28 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:06:29 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.08.37 (time: 0.33s)
+2026-01-07 11:06:29 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 11:06:29 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:06:29 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:06:29 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:06:59 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.08.37[/] (7689 tiles of 7725 possible)
+2026-01-07 11:06:59 [DEBUG] - Generating slide report
+2026-01-07 11:06:59 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 11:06:59 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:06:59 [DEBUG] - Set up coordinate grid, shape=(198, 155)
+2026-01-07 11:06:59 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 11:06:59 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (198, 155) | Tiles to extract: 30690
+2026-01-07 11:06:59 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:06:59 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:07:00 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.16.35 (time: 0.72s)
+2026-01-07 11:07:00 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 11:07:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:07:00 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:07:00 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:07:33 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.16.35[/] (8523 tiles of 8555 possible)
+2026-01-07 11:07:33 [DEBUG] - Generating slide report
+2026-01-07 11:07:33 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 11:07:33 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:07:33 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 11:07:33 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 11:07:33 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 11:07:33 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:07:33 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:07:33 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.11.15 (time: 0.29s)
+2026-01-07 11:07:33 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 11:07:33 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:07:33 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:07:33 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:08:09 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.11.15[/] (8754 tiles of 8799 possible)
+2026-01-07 11:08:09 [DEBUG] - Generating slide report
+2026-01-07 11:08:09 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 11:08:09 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:08:09 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 11:08:09 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 11:08:09 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 11:08:09 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:08:09 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:08:09 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.05.59 (time: 0.27s)
+2026-01-07 11:08:09 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 11:08:09 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:08:09 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:08:09 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:08:45 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.05.59[/] (8574 tiles of 8606 possible)
+2026-01-07 11:08:45 [DEBUG] - Generating slide report
+2026-01-07 11:08:45 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 11:08:45 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:08:45 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:08:45 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:08:45 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:08:45 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:08:45 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:08:45 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.14.02 (time: 0.26s)
+2026-01-07 11:08:45 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 11:08:45 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:08:45 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:08:45 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:09:22 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.14.02[/] (7344 tiles of 7372 possible)
+2026-01-07 11:09:22 [DEBUG] - Generating slide report
+2026-01-07 11:09:22 [INFO] - Generating PDF (this may take some time)...
+2026-01-07 11:09:22 [DEBUG] - Rendering thumbnails with pool.
+2026-01-07 11:09:22 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 11:09:22 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 11:09:22 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 11:09:22 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 11:09:22 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 11:09:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:09:22 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 11:09:22 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 11:09:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:09:22 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 11:09:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:09:22 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 11:09:22 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 11:09:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:09:22 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:09:22 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:09:22 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:09:22 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:09:22 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 11:09:22 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 11:09:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:09:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:09:22 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 11:09:22 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:09:22 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 11:09:22 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 11:09:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:09:22 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 11:09:22 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:09:22 [DEBUG] - Set up coordinate grid, shape=(198, 155)
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (198, 155) | Tiles to extract: 30690
+2026-01-07 11:09:22 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:09:22 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 11:09:22 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:09:22 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 11:09:22 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 11:09:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:09:22 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 11:09:22 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:09:22 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:09:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:09:22 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:09:22 [DEBUG] - Rendering tile images with pool.
+2026-01-07 11:09:22 [DEBUG] - Report render complete.
+2026-01-07 11:09:23 [DEBUG] - Rendering PDF pages with thumbnails.
+2026-01-07 11:19:41 [DEBUG] - Verifying slide annotations...
+2026-01-07 11:19:41 [INFO] - Slide reading backend: [cyan]libvips[/]
+2026-01-07 11:19:41 [INFO] - Filtering tiles by grayspace fraction
+2026-01-07 11:19:41 [DEBUG] - Grayspace defined as HSV avg < 0.05 (exclude if >=60% grayspace)
+2026-01-07 11:19:41 [INFO] - Working on dataset source [bold]MyProject[/]...
+2026-01-07 11:19:41 [INFO] - Skipping 8 slides; already done.
+2026-01-07 11:19:41 [INFO] - Extracting tiles from 0 slides (tile_px=256, tile_um=64)
+2026-01-07 11:20:48 [DEBUG] - Verifying slide annotations...
+2026-01-07 11:20:49 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um; creating now
+2026-01-07 11:20:49 [INFO] - Slide reading backend: [cyan]libvips[/]
+2026-01-07 11:20:49 [INFO] - Filtering tiles by grayspace fraction
+2026-01-07 11:20:49 [DEBUG] - Grayspace defined as HSV avg < 0.05 (exclude if >=60% grayspace)
+2026-01-07 11:20:49 [INFO] - Working on dataset source [bold]MyProject[/]...
+2026-01-07 11:20:49 [INFO] - Extracting tiles from 8 slides (tile_px=256, tile_um=64)
+2026-01-07 11:20:49 [INFO] - Using 8 processes (pool=spawn)
+2026-01-07 11:20:49 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 11:20:49 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:20:49 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 11:20:49 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 11:20:49 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 11:20:49 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:20:49 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:20:50 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.00.38 (time: 1.21s)
+2026-01-07 11:20:50 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 11:20:50 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:20:50 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:20:50 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:21:29 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.00.38[/] (8745 tiles of 8779 possible)
+2026-01-07 11:21:30 [DEBUG] - Generating slide report
+2026-01-07 11:21:34 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 11:21:34 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:21:34 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:21:34 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:21:34 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:21:34 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:21:34 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:21:35 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 14.58.03 (time: 0.27s)
+2026-01-07 11:21:35 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 11:21:35 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:21:35 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:21:35 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:22:08 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (7568 tiles of 7596 possible)
+2026-01-07 11:22:08 [DEBUG] - Generating slide report
+2026-01-07 11:22:08 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 11:22:08 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:22:08 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:22:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:22:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:22:08 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:22:08 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:22:08 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.03.25 (time: 0.40s)
+2026-01-07 11:22:08 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 11:22:08 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:22:08 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:22:08 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:23:00 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.03.25[/] (7367 tiles of 7401 possible)
+2026-01-07 11:23:00 [DEBUG] - Generating slide report
+2026-01-07 11:23:00 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 11:23:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:23:00 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 11:23:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 11:23:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 11:23:00 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:23:00 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:23:00 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.08.37 (time: 0.30s)
+2026-01-07 11:23:00 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 11:23:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:23:00 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:23:00 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:23:40 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.08.37[/] (7689 tiles of 7725 possible)
+2026-01-07 11:23:40 [DEBUG] - Generating slide report
+2026-01-07 11:23:40 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 11:23:40 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:23:40 [DEBUG] - Set up coordinate grid, shape=(198, 155)
+2026-01-07 11:23:40 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 11:23:40 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (198, 155) | Tiles to extract: 30690
+2026-01-07 11:23:40 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:23:40 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:23:41 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.16.35 (time: 0.29s)
+2026-01-07 11:23:41 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 11:23:41 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:23:41 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:23:41 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:24:16 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.16.35[/] (8523 tiles of 8555 possible)
+2026-01-07 11:24:16 [DEBUG] - Generating slide report
+2026-01-07 11:24:16 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 11:24:16 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:24:16 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 11:24:16 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 11:24:16 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 11:24:16 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:24:16 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:24:17 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.11.15 (time: 0.32s)
+2026-01-07 11:24:17 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 11:24:17 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:24:17 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:24:17 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:24:55 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.11.15[/] (8754 tiles of 8799 possible)
+2026-01-07 11:24:55 [DEBUG] - Generating slide report
+2026-01-07 11:24:55 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 11:24:55 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:24:55 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 11:24:55 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 11:24:55 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 11:24:55 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:24:55 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:24:56 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.05.59 (time: 0.27s)
+2026-01-07 11:24:56 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 11:24:56 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:24:56 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:24:56 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:25:31 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.05.59[/] (8574 tiles of 8606 possible)
+2026-01-07 11:25:31 [DEBUG] - Generating slide report
+2026-01-07 11:25:31 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 11:25:31 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:25:31 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:25:31 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:25:31 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:25:31 [DEBUG] - Applying QC: [Otsu(slide_level=None)]
+2026-01-07 11:25:31 [DEBUG] - Applying Otsu's thresholding at level=6
+2026-01-07 11:25:31 [DEBUG] - QC ([Otsu(slide_level=None)]) complete for slide OTS-24-22043 - 2024-08-28 15.14.02 (time: 0.26s)
+2026-01-07 11:25:31 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 11:25:31 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 11:25:31 [DEBUG] - Building generator with a shared pool
+2026-01-07 11:25:31 [DEBUG] - Using imap chunksize=64
+2026-01-07 11:26:00 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.14.02[/] (7344 tiles of 7372 possible)
+2026-01-07 11:26:00 [DEBUG] - Generating slide report
+2026-01-07 11:26:00 [INFO] - Generating PDF (this may take some time)...
+2026-01-07 11:26:00 [DEBUG] - Rendering thumbnails with pool.
+2026-01-07 11:26:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 11:26:00 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 11:26:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:26:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 11:26:00 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 11:26:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:26:00 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:26:00 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:26:00 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:26:00 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:26:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 11:26:00 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 11:26:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:26:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 11:26:00 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 11:26:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:26:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 11:26:00 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 11:26:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:26:00 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:26:00 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:26:00 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 11:26:00 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:26:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 11:26:00 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 11:26:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:26:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 11:26:00 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 11:26:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:26:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 11:26:00 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 11:26:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:26:00 [DEBUG] - Set up coordinate grid, shape=(198, 155)
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (198, 155) | Tiles to extract: 30690
+2026-01-07 11:26:00 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:26:00 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 11:26:00 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:26:00 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 11:26:00 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:26:00 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 11:26:00 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 11:26:01 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 11:26:01 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 11:26:01 [DEBUG] - Rendering tile images with pool.
+2026-01-07 11:26:01 [DEBUG] - Report render complete.
+2026-01-07 11:26:01 [DEBUG] - Rendering PDF pages with thumbnails.
+2026-01-07 11:38:40 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 11:38:40 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 11:38:40 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:38:40 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:38:40 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:38:40 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:39:14 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 11:39:14 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 11:39:14 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:39:14 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 11:39:14 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 11:39:14 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 11:56:46 [DEBUG] - Microns-Per-Pixel (MPP) not found, Searching EXIF
+2026-01-07 11:56:46 [DEBUG] - Could not detect microns-per-pixel; using default 1
+2026-01-07 11:56:46 [DEBUG] - Error attempting to read level 0
+2026-01-07 11:56:46 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215
+2026-01-07 11:56:46 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215, using whole slide.
+2026-01-07 11:56:46 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:56:46 [DEBUG] - Set up coordinate grid, shape=(3, 3)
+2026-01-07 11:56:46 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Slide info: 1.0 um/px | 0 ROI(s) | Size: 256 x 256
+2026-01-07 11:56:46 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Grid shape: (3, 3) | Tiles to extract: 9
+2026-01-07 11:57:06 [DEBUG] - Error attempting to read level 0
+2026-01-07 11:57:06 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215
+2026-01-07 11:57:06 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215, using whole slide.
+2026-01-07 11:57:06 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:57:06 [DEBUG] - Set up coordinate grid, shape=(3, 3)
+2026-01-07 11:57:06 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Slide info: 1.0 um/px | 0 ROI(s) | Size: 256 x 256
+2026-01-07 11:57:06 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Grid shape: (3, 3) | Tiles to extract: 9
+2026-01-07 11:57:14 [DEBUG] - Error attempting to read level 0
+2026-01-07 11:57:14 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215
+2026-01-07 11:57:14 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215, using whole slide.
+2026-01-07 11:57:14 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:57:14 [DEBUG] - Set up coordinate grid, shape=(3, 3)
+2026-01-07 11:57:14 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Slide info: 1.0 um/px | 0 ROI(s) | Size: 256 x 256
+2026-01-07 11:57:14 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Grid shape: (3, 3) | Tiles to extract: 9
+2026-01-07 11:57:55 [DEBUG] - Error attempting to read level 0
+2026-01-07 11:57:55 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215
+2026-01-07 11:57:55 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215, using whole slide.
+2026-01-07 11:57:55 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:57:55 [DEBUG] - Set up coordinate grid, shape=(3, 3)
+2026-01-07 11:57:55 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Slide info: 1.0 um/px | 0 ROI(s) | Size: 256 x 256
+2026-01-07 11:57:55 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Grid shape: (3, 3) | Tiles to extract: 9
+2026-01-07 11:57:55 [INFO] - No GPU detected - running from CPU
+2026-01-07 11:57:55 [INFO] - === Segmentation parameters ===
+2026-01-07 11:57:55 [INFO] - Diameter (px):     30
+2026-01-07 11:57:55 [INFO] - Diameter (um):     8
+2026-01-07 11:57:55 [INFO] - Window size:       256
+2026-01-07 11:57:55 [INFO] - Target size:       256
+2026-01-07 11:57:55 [INFO] - Perform tiled:     True
+2026-01-07 11:57:55 [INFO] - Slide dimensions:  (256, 256)
+2026-01-07 11:57:55 [INFO] - Slide shape:       (3, 3)
+2026-01-07 11:57:55 [INFO] - Slide stride (px): 68
+2026-01-07 11:57:55 [INFO] - Est. tiles:        9
+2026-01-07 11:57:55 [INFO] - Save flow:         True
+2026-01-07 11:57:55 [INFO] - Mask dimensions:   (392, 392)
+2026-01-07 11:57:55 [INFO] - Mask size:         (768, 768)
+2026-01-07 11:57:55 [INFO] - ===============================
+2026-01-07 11:57:55 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Extracting 68um tiles (resizing 68px -> 256px); stride: 68px
+2026-01-07 11:57:55 [WARNING] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: [red]'!WARN!'[/] Tiles will be up-scaled with bilinear interpolation (68px -> 256px)
+2026-01-07 11:57:55 [DEBUG] - Building generator ThreadPool(4)
+2026-01-07 11:57:55 [DEBUG] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03-7685-24215[/] (9 tiles of 9 possible)
+2026-01-07 11:58:31 [INFO] - Segmented 2 cells for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215 (36 s)
+2026-01-07 11:59:45 [DEBUG] - Error attempting to read level 0
+2026-01-07 11:59:45 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215
+2026-01-07 11:59:45 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215, using whole slide.
+2026-01-07 11:59:45 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 11:59:45 [DEBUG] - Set up coordinate grid, shape=(3, 3)
+2026-01-07 11:59:45 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Slide info: 1.0 um/px | 0 ROI(s) | Size: 256 x 256
+2026-01-07 11:59:45 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Grid shape: (3, 3) | Tiles to extract: 9
+2026-01-07 11:59:45 [INFO] - No GPU detected - running from CPU
+2026-01-07 11:59:45 [INFO] - === Segmentation parameters ===
+2026-01-07 11:59:45 [INFO] - Diameter (px):     30
+2026-01-07 11:59:45 [INFO] - Diameter (um):     8
+2026-01-07 11:59:45 [INFO] - Window size:       256
+2026-01-07 11:59:45 [INFO] - Target size:       256
+2026-01-07 11:59:45 [INFO] - Perform tiled:     True
+2026-01-07 11:59:45 [INFO] - Slide dimensions:  (256, 256)
+2026-01-07 11:59:45 [INFO] - Slide shape:       (3, 3)
+2026-01-07 11:59:45 [INFO] - Slide stride (px): 68
+2026-01-07 11:59:45 [INFO] - Est. tiles:        9
+2026-01-07 11:59:45 [INFO] - Save flow:         True
+2026-01-07 11:59:45 [INFO] - Mask dimensions:   (392, 392)
+2026-01-07 11:59:45 [INFO] - Mask size:         (768, 768)
+2026-01-07 11:59:45 [INFO] - ===============================
+2026-01-07 11:59:45 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: Extracting 68um tiles (resizing 68px -> 256px); stride: 68px
+2026-01-07 11:59:45 [WARNING] - OTS-24-22043 - 2024-08-28 14.58.03-7685-24215: [red]'!WARN!'[/] Tiles will be up-scaled with bilinear interpolation (68px -> 256px)
+2026-01-07 11:59:45 [DEBUG] - Building generator ThreadPool(4)
+2026-01-07 11:59:46 [DEBUG] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03-7685-24215[/] (9 tiles of 9 possible)
+2026-01-07 12:00:21 [INFO] - Segmented 1 cells for OTS-24-22043 - 2024-08-28 14.58.03-7685-24215 (36 s)
+2026-01-07 12:12:52 [DEBUG] - Microns-Per-Pixel (MPP) not found, Searching EXIF
+2026-01-07 12:12:52 [DEBUG] - Could not detect microns-per-pixel; using default 1
+2026-01-07 12:12:52 [DEBUG] - Error attempting to read level 0
+2026-01-07 12:12:52 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03-7975-24505
+2026-01-07 12:12:52 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03-7975-24505, using whole slide.
+2026-01-07 12:12:52 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 12:12:52 [DEBUG] - Set up coordinate grid, shape=(3, 3)
+2026-01-07 12:12:52 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7975-24505: Slide info: 1.0 um/px | 0 ROI(s) | Size: 256 x 256
+2026-01-07 12:12:52 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7975-24505: Grid shape: (3, 3) | Tiles to extract: 9
+2026-01-07 12:12:52 [INFO] - No GPU detected - running from CPU
+2026-01-07 12:12:52 [INFO] - === Segmentation parameters ===
+2026-01-07 12:12:52 [INFO] - Diameter (px):     30
+2026-01-07 12:12:52 [INFO] - Diameter (um):     8
+2026-01-07 12:12:52 [INFO] - Window size:       256
+2026-01-07 12:12:52 [INFO] - Target size:       256
+2026-01-07 12:12:52 [INFO] - Perform tiled:     True
+2026-01-07 12:12:52 [INFO] - Slide dimensions:  (256, 256)
+2026-01-07 12:12:52 [INFO] - Slide shape:       (3, 3)
+2026-01-07 12:12:52 [INFO] - Slide stride (px): 68
+2026-01-07 12:12:52 [INFO] - Est. tiles:        9
+2026-01-07 12:12:52 [INFO] - Save flow:         True
+2026-01-07 12:12:52 [INFO] - Mask dimensions:   (392, 392)
+2026-01-07 12:12:52 [INFO] - Mask size:         (768, 768)
+2026-01-07 12:12:52 [INFO] - ===============================
+2026-01-07 12:12:52 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7975-24505: Extracting 68um tiles (resizing 68px -> 256px); stride: 68px
+2026-01-07 12:12:52 [WARNING] - OTS-24-22043 - 2024-08-28 14.58.03-7975-24505: [red]'!WARN!'[/] Tiles will be up-scaled with bilinear interpolation (68px -> 256px)
+2026-01-07 12:12:52 [DEBUG] - Building generator ThreadPool(4)
+2026-01-07 12:12:52 [DEBUG] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03-7975-24505[/] (9 tiles of 9 possible)
+2026-01-07 12:13:21 [INFO] - Segmented 2 cells for OTS-24-22043 - 2024-08-28 14.58.03-7975-24505 (30 s)
+2026-01-07 12:23:37 [DEBUG] - Error attempting to read level 0
+2026-01-07 12:23:37 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03-7975-24505
+2026-01-07 12:23:37 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03-7975-24505, using whole slide.
+2026-01-07 12:23:37 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 12:23:37 [DEBUG] - Set up coordinate grid, shape=(5, 5)
+2026-01-07 12:23:37 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7975-24505: Slide info: 1.0 um/px | 0 ROI(s) | Size: 256 x 256
+2026-01-07 12:23:37 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7975-24505: Grid shape: (5, 5) | Tiles to extract: 25
+2026-01-07 12:23:37 [INFO] - No GPU detected - running from CPU
+2026-01-07 12:23:37 [INFO] - === Segmentation parameters ===
+2026-01-07 12:23:37 [INFO] - Diameter (px):     30
+2026-01-07 12:23:37 [INFO] - Diameter (um):     6
+2026-01-07 12:23:37 [INFO] - Window size:       256
+2026-01-07 12:23:37 [INFO] - Target size:       256
+2026-01-07 12:23:37 [INFO] - Perform tiled:     True
+2026-01-07 12:23:37 [INFO] - Slide dimensions:  (256, 256)
+2026-01-07 12:23:37 [INFO] - Slide shape:       (5, 5)
+2026-01-07 12:23:37 [INFO] - Slide stride (px): 51
+2026-01-07 12:23:37 [INFO] - Est. tiles:        25
+2026-01-07 12:23:37 [INFO] - Save flow:         True
+2026-01-07 12:23:37 [INFO] - Mask dimensions:   (460, 460)
+2026-01-07 12:23:37 [INFO] - Mask size:         (1280, 1280)
+2026-01-07 12:23:37 [INFO] - ===============================
+2026-01-07 12:23:37 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03-7975-24505: Extracting 51um tiles (resizing 51px -> 256px); stride: 51px
+2026-01-07 12:23:37 [WARNING] - OTS-24-22043 - 2024-08-28 14.58.03-7975-24505: [red]'!WARN!'[/] Tiles will be up-scaled with bilinear interpolation (51px -> 256px)
+2026-01-07 12:23:37 [DEBUG] - Building generator ThreadPool(4)
+2026-01-07 12:23:37 [DEBUG] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03-7975-24505[/] (25 tiles of 25 possible)
+2026-01-07 12:24:18 [INFO] - Segmented 6 cells for OTS-24-22043 - 2024-08-28 14.58.03-7975-24505 (42 s)
+2026-01-07 12:29:16 [DEBUG] - Verifying slide annotations...
+2026-01-07 12:29:16 [DEBUG] - Verifying tfrecords...
+2026-01-07 14:40:10 [DEBUG] - Verifying slide annotations...
+2026-01-07 14:40:10 [DEBUG] - No manifest at /Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords/256px_64um; creating now
+2026-01-07 14:40:10 [INFO] - Slide reading backend: [cyan]libvips[/]
+2026-01-07 14:40:10 [INFO] - Filtering tiles by grayspace fraction
+2026-01-07 14:40:10 [DEBUG] - Grayspace defined as HSV avg < 0.05 (exclude if >=60% grayspace)
+2026-01-07 14:40:10 [INFO] - Working on dataset source [bold]MyProject[/]...
+2026-01-07 14:40:10 [INFO] - Extracting tiles from 8 slides (tile_px=256, tile_um=64)
+2026-01-07 14:40:10 [INFO] - Using 8 processes (pool=spawn)
+2026-01-07 14:40:10 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 14:40:10 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:40:10 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 14:40:10 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 14:40:10 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 14:40:10 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 14:40:11 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 14:40:11 [DEBUG] - Building generator with a shared pool
+2026-01-07 14:40:11 [DEBUG] - Using imap chunksize=64
+2026-01-07 14:41:20 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.00.38[/] (9198 tiles of 30595 possible)
+2026-01-07 14:41:20 [DEBUG] - Generating slide report
+2026-01-07 14:41:24 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 14:41:24 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:41:24 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 14:41:24 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 14:41:24 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 14:41:24 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 14:41:24 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 14:41:24 [DEBUG] - Building generator with a shared pool
+2026-01-07 14:41:24 [DEBUG] - Using imap chunksize=64
+2026-01-07 14:42:21 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (7985 tiles of 26825 possible)
+2026-01-07 14:42:21 [DEBUG] - Generating slide report
+2026-01-07 14:42:21 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 14:42:21 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:42:21 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 14:42:21 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 14:42:21 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 14:42:21 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 14:42:21 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 14:42:21 [DEBUG] - Building generator with a shared pool
+2026-01-07 14:42:21 [DEBUG] - Using imap chunksize=64
+2026-01-07 14:43:22 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.03.25[/] (7742 tiles of 26825 possible)
+2026-01-07 14:43:22 [DEBUG] - Generating slide report
+2026-01-07 14:43:22 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 14:43:22 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:43:22 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 14:43:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 14:43:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 14:43:22 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 14:43:22 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 14:43:22 [DEBUG] - Building generator with a shared pool
+2026-01-07 14:43:22 [DEBUG] - Using imap chunksize=64
+2026-01-07 14:44:42 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.08.37[/] (8158 tiles of 28710 possible)
+2026-01-07 14:44:42 [DEBUG] - Generating slide report
+2026-01-07 14:44:42 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 14:44:42 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:44:42 [DEBUG] - Set up coordinate grid, shape=(198, 155)
+2026-01-07 14:44:42 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 14:44:42 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (198, 155) | Tiles to extract: 30690
+2026-01-07 14:44:42 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 14:44:42 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 14:44:42 [DEBUG] - Building generator with a shared pool
+2026-01-07 14:44:42 [DEBUG] - Using imap chunksize=64
+2026-01-07 14:45:45 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.16.35[/] (8760 tiles of 30690 possible)
+2026-01-07 14:45:46 [DEBUG] - Generating slide report
+2026-01-07 14:45:46 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 14:45:46 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:45:46 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 14:45:46 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 14:45:46 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 14:45:46 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 14:45:46 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 14:45:46 [DEBUG] - Building generator with a shared pool
+2026-01-07 14:45:46 [DEBUG] - Using imap chunksize=64
+2026-01-07 14:46:52 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.11.15[/] (9206 tiles of 30595 possible)
+2026-01-07 14:46:52 [DEBUG] - Generating slide report
+2026-01-07 14:46:52 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 14:46:52 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:46:53 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 14:46:53 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 14:46:53 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 14:46:53 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 14:46:53 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 14:46:53 [DEBUG] - Building generator with a shared pool
+2026-01-07 14:46:53 [DEBUG] - Using imap chunksize=64
+2026-01-07 14:48:15 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.05.59[/] (8811 tiles of 28710 possible)
+2026-01-07 14:48:15 [DEBUG] - Generating slide report
+2026-01-07 14:48:15 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 14:48:15 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:48:15 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 14:48:15 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 14:48:15 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 14:48:15 [DEBUG] - Extracting tiles for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 14:48:15 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Extracting 64um tiles (resizing 290.0px -> 256px); stride: 290px
+2026-01-07 14:48:15 [DEBUG] - Building generator with a shared pool
+2026-01-07 14:48:15 [DEBUG] - Using imap chunksize=64
+2026-01-07 14:49:25 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 15.14.02[/] (7730 tiles of 26825 possible)
+2026-01-07 14:49:25 [DEBUG] - Generating slide report
+2026-01-07 14:49:25 [INFO] - Generating PDF (this may take some time)...
+2026-01-07 14:49:26 [DEBUG] - Rendering thumbnails with pool.
+2026-01-07 14:49:26 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.11.15
+2026-01-07 14:49:26 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.11.15, using whole slide.
+2026-01-07 14:49:26 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:49:26 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.16.35
+2026-01-07 14:49:26 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.08.37
+2026-01-07 14:49:26 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.08.37, using whole slide.
+2026-01-07 14:49:26 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:49:26 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.16.35, using whole slide.
+2026-01-07 14:49:26 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:49:26 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.00.38
+2026-01-07 14:49:26 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.03.25
+2026-01-07 14:49:26 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.03.25, using whole slide.
+2026-01-07 14:49:26 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:49:26 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 14:49:26 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.00.38, using whole slide.
+2026-01-07 14:49:26 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:49:26 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 14:49:26 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:49:26 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.14.02
+2026-01-07 14:49:26 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.14.02, using whole slide.
+2026-01-07 14:49:26 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:49:26 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.11.15: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 14:49:26 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 14:49:26 [DEBUG] - Set up coordinate grid, shape=(198, 155)
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 45056
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.16.35: Grid shape: (198, 155) | Tiles to extract: 30690
+2026-01-07 14:49:26 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 14:49:26 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 14:49:26 [DEBUG] - Set up coordinate grid, shape=(211, 145)
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.03.25: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 61440 x 42240
+2026-01-07 14:49:26 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.00.38: Grid shape: (211, 145) | Tiles to extract: 30595
+2026-01-07 14:49:26 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 14:49:26 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.08.37: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 14:49:26 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 14:49:26 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 14:49:26 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 14:49:26 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 15.05.59
+2026-01-07 14:49:26 [DEBUG] - No ROI for OTS-24-22043 - 2024-08-28 15.05.59, using whole slide.
+2026-01-07 14:49:26 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 14:49:26 [DEBUG] - Set up coordinate grid, shape=(185, 145)
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.14.02: Grid shape: (185, 145) | Tiles to extract: 26825
+2026-01-07 14:49:26 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 14:49:26 [DEBUG] - Set up coordinate grid, shape=(198, 145)
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 57600 x 42240
+2026-01-07 14:49:26 [DEBUG] - OTS-24-22043 - 2024-08-28 15.05.59: Grid shape: (198, 145) | Tiles to extract: 28710
+2026-01-07 14:49:26 [DEBUG] - Requesting thumbnail at level=7, width=512
+2026-01-07 14:49:27 [DEBUG] - Rendering tile images with pool.
+2026-01-07 14:49:27 [DEBUG] - Report render complete.
+2026-01-07 14:49:27 [DEBUG] - Rendering PDF pages with thumbnails.

@@ -1,0 +1,53 @@
+2026-01-07 19:50:37 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 19:50:37 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 19:50:37 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 19:50:37 [DEBUG] - Set up coordinate grid, shape=(29, 22)
+2026-01-07 19:50:37 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 19:50:37 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (29, 22) | Tiles to extract: 638
+2026-01-07 19:50:37 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 512um tiles (resizing 1161.0px -> 1024px); stride: 907px
+2026-01-07 19:50:37 [DEBUG] - Building generator with Pool(4), type=spawn
+2026-01-07 19:50:37 [DEBUG] - Using imap chunksize=64
+2026-01-07 19:50:40 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (211 tiles of 638 possible)
+2026-01-07 19:50:40 [DEBUG] - Previewing with 211 extracted tile locations.
+2026-01-07 19:50:40 [DEBUG] - Requesting thumbnail at level=7, width=1024
+2026-01-07 19:53:02 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 19:53:02 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 19:53:02 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 19:53:02 [DEBUG] - Set up coordinate grid, shape=(29, 22)
+2026-01-07 19:53:02 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 19:53:02 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (29, 22) | Tiles to extract: 638
+2026-01-07 19:53:02 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 512um tiles (resizing 1161.0px -> 1024px); stride: 907px
+2026-01-07 19:53:02 [DEBUG] - Building generator with Pool(4), type=spawn
+2026-01-07 19:53:02 [DEBUG] - Using imap chunksize=64
+2026-01-07 19:53:06 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (211 tiles of 638 possible)
+2026-01-07 19:53:06 [DEBUG] - Previewing with 211 extracted tile locations.
+2026-01-07 19:53:06 [DEBUG] - Requesting thumbnail at level=7, width=1024
+2026-01-07 19:53:18 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 19:53:18 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 19:53:18 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 19:53:18 [DEBUG] - Set up coordinate grid, shape=(29, 22)
+2026-01-07 19:53:18 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 19:53:18 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (29, 22) | Tiles to extract: 638
+2026-01-07 19:53:18 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 512um tiles (resizing 1161.0px -> 1024px); stride: 907px
+2026-01-07 19:53:18 [DEBUG] - Building generator with Pool(4), type=spawn
+2026-01-07 19:53:18 [DEBUG] - Using imap chunksize=64
+2026-01-07 19:53:21 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (211 tiles of 638 possible)
+2026-01-07 19:53:21 [DEBUG] - Previewing with 211 extracted tile locations.
+2026-01-07 19:53:21 [DEBUG] - Requesting thumbnail at level=7, width=1024
+2026-01-07 21:49:00 [DEBUG] - No ROIs provided for OTS-24-22043 - 2024-08-28 14.58.03
+2026-01-07 21:49:00 [INFO] - No ROI for OTS-24-22043 - 2024-08-28 14.58.03, using whole slide.
+2026-01-07 21:49:00 [DEBUG] - Slide origin: (0, 0)
+2026-01-07 21:49:00 [DEBUG] - Set up coordinate grid, shape=(45, 35)
+2026-01-07 21:49:00 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Slide info: 0.22034197073858627 um/px | 0 ROI(s) | Size: 53760 x 42240
+2026-01-07 21:49:00 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Grid shape: (45, 35) | Tiles to extract: 1575
+2026-01-07 21:49:00 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 512um tiles (resizing 1161.0px -> 1024px); stride: 580px
+2026-01-07 21:49:00 [DEBUG] - Building generator with Pool(4), type=spawn
+2026-01-07 21:49:00 [DEBUG] - Using imap chunksize=64
+2026-01-07 21:49:04 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (516 tiles of 1575 possible)
+2026-01-07 21:49:04 [DEBUG] - Previewing with 516 extracted tile locations.
+2026-01-07 21:49:04 [DEBUG] - Requesting thumbnail at level=7, width=1024
+2026-01-07 21:50:07 [DEBUG] - OTS-24-22043 - 2024-08-28 14.58.03: Extracting 512um tiles (resizing 1161.0px -> 1024px); stride: 580px
+2026-01-07 21:50:07 [DEBUG] - Building generator with Pool(4), type=spawn
+2026-01-07 21:50:07 [DEBUG] - Using imap chunksize=64
+2026-01-07 21:50:22 [INFO] - Finished tile extraction for [green]OTS-24-22043 - 2024-08-28 14.58.03[/] (516 tiles of 1575 possible)
+2026-01-07 21:50:22 [DEBUG] - Generating slide report

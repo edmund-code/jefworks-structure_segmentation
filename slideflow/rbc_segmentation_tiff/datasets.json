@@ -1,0 +1,8 @@
+{
+ "MyProject": {
+  "slides": "/Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/data/lab_kidney_data_tiff",
+  "roi": "/Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/data/lab_kidney_data_tiff/rois",
+  "tiles": "/Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation/tiles",
+  "tfrecords": "/Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation/tfrecords"
+ }
+}

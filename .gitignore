@@ -1,2 +1,12 @@
 # Ignore the node_modules folder and its contents
-kidney_data/
+data/
+checkpoints/
+Qupath/
+glomeruli_pipline/glomeruli_tiles/
+rbc_pipline/filtered_kidney_tiles/
+slideflow/rbc_segmentation_ndpi/tiles/
+slideflow/rbc_segmentation_tiff/tiles/
+slideflow/rbc_segmentation_tiff/tfrecords/
+slideflow/rbc_segmentation_ndpi/tfrecords/
+rbc_pipeline/filtered_kidney_tiles/OTS-24-22043 - 2024-08-28 14.58.03
+glomeruli_pipeline/glomeruli_tiles
