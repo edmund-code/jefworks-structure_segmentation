@@ -1,92 +1,47 @@
 # jefworks-structure_segmentation
-# Deep Literature Review: Segmentation of Renal Structures
 
+This repository contains pipelines for the semantic segmentation of kidney structures, specifically glomeruli and erythrocytes (RBCs), utilizing high-resolution whole slide images (WSI) and spatial transcriptomics data. The project leverages deep learning models including DINOv2 and SAM (Segment Anything Model) adapters.
 
-A curated deep literature review and resource hub for the semantic segmentation of kidney structures (glomeruli, tubules, vessels), tracking the evolution from heuristic methods to gene-informed Foundation Models.
+## Repository Structure
 
-## Overview
+### 1. `glomeruli_segmentation/`
+This directory contains the primary workflow for segmenting glomeruli using a multi-stage approach guided by gene expression markers.
 
-Segmentation of kidney pathology is a "Holy Grail" task in computational pathology. This repository synthesizes the transition of State-of-the-Art (SOTA) methods through four distinct eras:
+*   **`final_glomeruli_segmentation.ipynb`**: **[Core Pipeline]** An end-to-end notebook that performs:
+    *   Alignment of Visium spatial transcriptomics data with WSI (NDPI/TIFF).
+    *   Identification of glomerular candidates using specific gene markers (e.g., `NPHS1`, `PODXL`).
+    *   Classification of candidates using a linear model on top of DINOv2 embeddings.
+    *   Final segmentation refinement using the Medical SAM Adapter.
+*   **`train_glom_dinov2_linear.py`**: A Python script to train the linear classification head used in the pipeline to filter false positive glomeruli candidates.
+*   **`label_glomeruli_app.py`**: A GUI application to manually label glomeruli bounding boxes for training or validation.
+*   **`medsam_adaptor.ipynb`**: Notebook for experiments and fine-tuning of the MedSAM adapter for renal structures.
+*   **`out/`**: Directory containing pipeline outputs, including intermediate CSVs, GeoJSONs, and validation scores.
 
-1.  **The U-Net Era** (CNN baselines)
-2.  **The Competition Era** (Data engineering & HuBMAP)
-3.  **The Transformer Era** (Attention mechanisms & Global Context)
-4.  **The Multimodal Frontier** (Integrating Gene Expression/Spatial Transcriptomics)
+### 2. `rbc_pipeline/`
+A separate pipeline dedicated to the segmentation of Red Blood Cells (RBCs).
 
----
+*   **`extract_tile.ipynb`**: Notebook for preprocessing Whole Slide Images (WSI) and extracting image tiles for analysis.
+*   **`segment_rbcs.ipynb`**: Notebook implementing the segmentation logic for identifying RBCs within the extracted tiles.
 
-## The Biological Challenge
+### 3. `Medical-SAM-Adapter/`
+Contains the implementation of the parameter-efficient adapter for the Segment Anything Model (SAM), customized for medical image segmentation tasks.
 
-To understand the algorithms, one must understand the morphology:
+### 4. `checkpoints/`
+Stores model weights and checkpoints:
+*   `best_dice_checkpoint.pth`: Best performing SAM adapter checkpoint.
+*   `glom_dinov2_linear.pt`: Trained linear head for DINOv2 glomeruli classification.
 
-* **The Target:** Glomeruli (tufts of capillaries encases in Bowman's capsule) and Tubules.
-* **The "Borderless" Problem:** While healthy glomeruli have distinct boundaries, **sclerotic (scarred) glomeruli** collapse and lose the Bowman's capsule, making them nearly indistinguishable from interstitial fibrosis.
-* **Stain Variance:** Models trained on PAS often fail on H&E, Silver, or Trichrome due to domain shift.
-* **Scale:** Glomeruli are large (requires 5x-10x context), while peritubular capillaries are tiny (requires 40x).
-
----
-
-## Phase I: The U-Net Baseline (2015-2019)
-
-The gold standard for biomedical image segmentation. Despite newer architectures, a well-tuned U-Net remains the strongest baseline.
-
-| Architecture | Key Innovation | Limitation |
-| :--- | :--- | :--- |
-| **U-Net** | Encoder-Decoder with Skip Connections. | Struggles with large scale variance; local focus only. |
-| **Res-U-Net** | Residual blocks (ResNet) to prevent vanishing gradients. | Computationally heavier. |
-| **U-Net++** | Nested, dense skip connections. | High memory usage; marginal gains on simple structures. |
-
-> **Key Insight:** Skip connections are non-negotiable for preserving the fine details of the Bowman's space.
+### 5. `data/` & `Qupath_Data/`
+*   **`data/`**: Stores input data including Visium spatial data and raw NDPI/TIFF slides.
+*   **`Qupath_Data/`**: Project files for QuPath integration and visualization.
 
 ---
 
-## Phase II: Engineering & Competitions (HuBMAP)
+## Usage
 
-Lessons learned from the **HuBMAP "Hacking the Kidney"** Kaggle competitions. The winning solutions proved that *data engineering > architecture*.
+To use the glomeruli segmentation pipeline:
 
-* **Stain Normalization:** Techniques like *Macenko* or *Reinhard* normalization are mandatory to force all slides into a standard color space.
-* **Tiling Strategy:** **Overlap-tile strategy** (predicting center crops and discarding edges) is required to remove stitching artifacts.
-* **Pseudo-Labeling:** "Noisy Student" approaches (train on labeled $\rightarrow$ predict on unlabeled $\rightarrow$ retrain on both) yielded the highest leaderboard jumps.
-
----
-
-## Phase III: Vision Transformers (2021-Present)
-
-Moving beyond CNNs to capture **global context** (e.g., distinguishing a glomerulus from a similar-looking vascular structure based on surrounding tissue location).
-
-* **Swin-U-Net:** Hierarchical Vision Transformer using shifted windows. Excellent for *sclerotic* glomeruli where local boundaries are missing but context implies a scar.
-* **TransU-Net:** Hybrid CNN-Transformer. Uses CNN for feature extraction and Transformers for encoding global context.
-* **HookNet:** Multi-resolution approach (two branches: context vs. target) that mimics a pathologist zooming in and out.
-
----
-
-## Phase IV: Foundation Models (2023+)
-
-Adapting massive pre-trained models to nephrology via **Parameter-Efficient Fine-Tuning (PEFT)**.
-
-* **SAM (Segment Anything Model):** Out-of-the-box performance is weak on histology.
-* **MedSAM / SAM-Adapter:** Freezes the massive SAM weights and trains a lightweight "adapter" layer. Achieves SOTA with few-shot learning (e.g., 10 examples).
-* **SegGPT:** Treats segmentation as an in-context visual prompting task ("Here is one marked glomerulus; find the rest").
-
----
-
-## Gene-Informed Segmentation (Multimodal)
-
-The cutting edge: integrating **Spatial Transcriptomics (ST)** to define boundaries invisible to the human eye (e.g., Proximal S1 vs. S2 tubules).
-
-### 1. Gene-to-Segmentation (Ground Truth Generation)
-* **Proseg / Baysor:** Uses RNA transcript density to probabilistically define cell borders.
-    * *Use Case:* Segmenting immune infiltration in renal tumors where T-cells blend into cancer cells.
-* **GIST (Graph-Integration):** Fuses visual features with gene expression graphs to identify "functional domains" (e.g., hypoxic regions).
-
-### 2. Image-to-Gene (Virtual Staining)
-* **ST-Net / HE2RNA:** Predicts gene expression heatmaps (e.g., *PODXL* or *NPHS1*) directly from H&E images.
-    * *Use Case:* Implicitly learns perfect segmentation of podocytes without human annotation by trying to predict the molecular signal.
-
----
-
-## Datasets
-
-1.  **[HuBMAP (Human BioMolecular Atlas Program)](https://hubmapconsortium.org/)**: The premier dataset. Contains paired PAS/H&E and Spatial Transcriptomics (Visium/CODEX).
-2.  **[PANDA (Prostate cANcer graDe Assessment)](https://www.kaggle.com/c/prostate-cancer-grade-assessment)**: Useful for studying tiling/normalization pipelines standard in kidney work.
-3.  **[Kidney Pathology Challenge (KPC)](https://www.google.com/search?q=kidney+pathology+segmentation+dataset)**: Various smaller datasets for glomerulus detection.
+1.  **Environment**: Ensure all dependencies (`torch`, `openslide`, `squidpy`, `segment_anything`) are installed.
+2.  **Configuration**: Open `glomeruli_segmentation/final_glomeruli_segmentation.ipynb`.
+3.  **Setup**: Edit the first code cell to set the `SAMPLE_NAME`, `BASE_DIR`, and relevant paths for your local environment.
+4.  **Execution**: Run the notebook cells in order. The pipeline reads aligned points and WSI data to produce segmented GeoJSON overlays.

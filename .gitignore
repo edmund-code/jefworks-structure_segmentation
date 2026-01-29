@@ -4,5 +4,5 @@ checkpoints/
 Qupath_Data/
 qupath/build
 Medical-SAM-Adaptor/
-rbc_pipline/filtered_kidney_tiles/
+rbc_pipeline/filtered_kidney_tiles/
 glomeruli_segmentation/out/
