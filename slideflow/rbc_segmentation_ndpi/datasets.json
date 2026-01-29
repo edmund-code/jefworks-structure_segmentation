@@ -1,8 +1,0 @@
-{
- "MyProject": {
-  "slides": "/Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/data/lab_kidney_data_ndpi",
-  "roi": "/Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/data/lab_kidney_data_ndpi/rois",
-  "tiles": "/Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tiles",
-  "tfrecords": "/Users/edmundtsou/Desktop/JEFworks/jefworks-structure_segmentation/rbc_segmentation_ndpi/tfrecords"
- }
-}
